@@ -8,6 +8,7 @@ import {
   BarChart2,
   Lightbulb,
   GraduationCap,
+  UserCheck,
   Menu,
   X,
   LogOut,
@@ -28,6 +29,7 @@ export default function DashboardLayout({ children }) {
     { name: t(lang, 'jobs'), href: '/jobs', icon: Briefcase },
     { name: t(lang, 'skillGap'), href: '/skill-gap', icon: AlertTriangle },
     { name: t(lang, 'mismatch'), href: '/mismatch', icon: BarChart2 },
+    { name: t(lang, 'profileAnalyzer'), href: '/profile-analyzer', icon: UserCheck },
     { name: t(lang, 'recommendations'), href: '/recommendations', icon: Lightbulb },
     { name: t(lang, 'trainingPlan'), href: '/training-plan', icon: GraduationCap },
   ];

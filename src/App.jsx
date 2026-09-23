@@ -10,6 +10,7 @@ import SkillGap from './pages/SkillGap';
 import Mismatch from './pages/Mismatch';
 import Recommendations from './pages/Recommendations';
 import TrainingPlan from './pages/TrainingPlan';
+import ProfileAnalyzer from './pages/ProfileAnalyzer';
 import Login from './pages/Login';
 import Register from './pages/Register';
 
@@ -24,6 +25,7 @@ export default function App() {
           <Route path="/jobs" element={<Jobs />} />
           <Route path="/skill-gap" element={<SkillGap />} />
           <Route path="/mismatch" element={<Mismatch />} />
+          <Route path="/profile-analyzer" element={<ProfileAnalyzer />} />
           <Route path="/recommendations" element={<Recommendations />} />
           <Route path="/training-plan" element={<TrainingPlan />} />
           <Route path="/login" element={<Login />} />
